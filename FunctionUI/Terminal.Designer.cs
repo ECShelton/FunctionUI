@@ -28,37 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbl_Modifyer = new System.Windows.Forms.Label();
+            this.pb_execute = new System.Windows.Forms.ProgressBar();
+            this.lbl_execute = new System.Windows.Forms.Label();
             this.txt_terminal = new System.Windows.Forms.TextBox();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_Modifyer
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 459);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lbl_Modifyer.AutoSize = true;
+            this.lbl_Modifyer.Location = new System.Drawing.Point(13, 459);
+            this.lbl_Modifyer.Name = "lbl_Modifyer";
+            this.lbl_Modifyer.Size = new System.Drawing.Size(0, 17);
+            this.lbl_Modifyer.TabIndex = 0;
             // 
-            // progressBar1
+            // pb_execute
             // 
-            this.progressBar1.Location = new System.Drawing.Point(157, 457);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(230, 23);
-            this.progressBar1.TabIndex = 1;
+            this.pb_execute.Location = new System.Drawing.Point(157, 457);
+            this.pb_execute.Name = "pb_execute";
+            this.pb_execute.Size = new System.Drawing.Size(230, 23);
+            this.pb_execute.TabIndex = 1;
             // 
-            // label2
+            // lbl_execute
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(394, 459);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
+            this.lbl_execute.AutoSize = true;
+            this.lbl_execute.Location = new System.Drawing.Point(394, 459);
+            this.lbl_execute.Name = "lbl_execute";
+            this.lbl_execute.Size = new System.Drawing.Size(49, 17);
+            this.lbl_execute.TabIndex = 2;
+            this.lbl_execute.Text = "Ready";
             // 
             // txt_terminal
             // 
@@ -83,9 +82,9 @@
             this.ClientSize = new System.Drawing.Size(1057, 488);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.txt_terminal);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_execute);
+            this.Controls.Add(this.pb_execute);
+            this.Controls.Add(this.lbl_Modifyer);
             this.Name = "Terminal";
             this.Text = "Terminal";
             this.ResumeLayout(false);
@@ -95,9 +94,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbl_Modifyer;
+        private System.Windows.Forms.ProgressBar pb_execute;
+        private System.Windows.Forms.Label lbl_execute;
         private System.Windows.Forms.TextBox txt_terminal;
         private System.Windows.Forms.VScrollBar vScrollBar1;
     }
