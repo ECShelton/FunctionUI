@@ -19,5 +19,20 @@ namespace FunctionUI
             txt_terminal.ForeColor = Color.GhostWhite;
             txt_terminal.Font = new Font("Consolas", 10);
         }
+
+        public void Input()
+        {
+            txt_terminal.Text += "OS/>> ";
+        }
+
+        public void RunCommand()
+        {
+            string command = txt_terminal.Text;
+        }
+
+        public string CommandOutput()
+        {
+            return "TESTING";
+        }
     }
 }
